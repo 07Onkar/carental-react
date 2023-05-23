@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/carental-react/static/css/main.0d1aaff9.css",
+    "main.js": "/carental-react/static/js/main.bee49fcc.js",
+    "static/media/heroes-bg.png": "/carental-react/static/media/heroes-bg.69cf767fa2a87c17b238.png",
+    "static/media/about-main.jpg": "/carental-react/static/media/about-main.6f3164a0c864091e5f18.jpg",
+    "static/media/main-img.png": "/carental-react/static/media/main-img.1358a4bc85c61c0c15a2.png",
+    "static/media/bg02.png": "/carental-react/static/media/bg02.436a3ef36903d64d3fd6.png",
+    "static/media/car.png": "/carental-react/static/media/car.e89e43d63b1ffa676b12.png",
+    "static/media/audi.png": "/carental-react/static/media/audi.c30af43b43ca3b2f6a3a.png",
+    "static/media/main-car.png": "/carental-react/static/media/main-car.b0cf0ea3a3ccb292a4ce.png",
+    "static/media/bg-hero.png": "/carental-react/static/media/bg-hero.475f31fa04f08e8b9d86.png",
+    "static/media/icon1.png": "/carental-react/static/media/icon1.113cb321c1d450c936b1.png",
+    "static/media/icon2.png": "/carental-react/static/media/icon2.cb153fb3cab1aeb4af5d.png",
+    "static/media/icon3.png": "/carental-react/static/media/icon3.e6b5447caefe7ae01cee.png",
+    "static/media/aventador.jpg": "/carental-react/static/media/aventador.4c84886b0787c960e5e6.jpg",
+    "static/media/Car Rental.png": "/carental-react/static/media/Car Rental.61245379f7017320a57b.png",
+    "static/media/bg.png": "/carental-react/static/media/bg.38f3de7239d58e045124.png",
+    "static/media/Ferrari.jpg": "/carental-react/static/media/Ferrari.bc59e797220bc96cf202.jpg",
+    "static/media/McLerean.jpg": "/carental-react/static/media/McLerean.8047b3e12e106eb1b084.jpg",
+    "static/media/camaro.jpg": "/carental-react/static/media/camaro.43c4e513e12eefa83978.jpg",
+    "static/media/second.png": "/carental-react/static/media/second.b968888e20b611fc90c0.png",
+    "static/media/panamera-turbo.jpg": "/carental-react/static/media/panamera-turbo.3bf2635d80fc9dd3dabf.jpg",
+    "static/media/book-bg.png": "/carental-react/static/media/book-bg.6f629a1041e9fd9c6685.png",
+    "static/media/first.jpg": "/carental-react/static/media/first.abe05f696f376a657c2e.jpg",
+    "static/media/book-banner.png": "/carental-react/static/media/book-banner.09fcba44170a314c81a8.png",
+    "static/media/bg-contact.png": "/carental-react/static/media/bg-contact.c178c6db0f988d408d94.png",
+    "static/media/apple-store.svg": "/carental-react/static/media/apple-store.c192f2fdf7eaf0429cb6b8e9565177a2.svg",
+    "static/media/google-store.svg": "/carental-react/static/media/google-store.11ee92b920fa28fae8596587d80245f7.svg",
+    "static/media/icon3.svg": "/carental-react/static/media/icon3.0db16868dd6372474baffa495e575c09.svg",
+    "index.html": "/carental-react/index.html",
+    "main.0d1aaff9.css.map": "/carental-react/static/css/main.0d1aaff9.css.map",
+    "main.bee49fcc.js.map": "/carental-react/static/js/main.bee49fcc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0d1aaff9.css",
+    "static/js/main.bee49fcc.js"
+  ]
+}
