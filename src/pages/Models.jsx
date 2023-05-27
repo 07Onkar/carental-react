@@ -218,7 +218,7 @@ function Models() {
                 <div className="models-div_box_descr">
                   <div className="models-div_box_descr_name-price">
                     <div className="models-div_box_descr_name-price_name">
-                      <p>Chervrolet Camaro</p>
+                      <p>Chevrolet Camaro</p>
                       <span>
                         <FontAwesomeIcon icon={faStar} />
                         <FontAwesomeIcon icon={faStar} />
