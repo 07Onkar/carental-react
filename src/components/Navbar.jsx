@@ -5,26 +5,42 @@ import { FaBars, FaTimes } from "react-icons/fa";
 
 function Navbar() {
   const [nav, setNav] = useState(false);
+  const [scrollPosition, setScrollPosition] = useState(0);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setScrollPosition(window.scrollY);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    // Cleanup the event listener on component unmount
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
+  const navbarClass = scrollPosition > 0 ? "navbar navbar-blur" : "navbar";
   const openNav = () => {
     setNav(!nav);
   };
 
   const [isScrolled, setIsScrolled] = useState(false);
-
   useEffect(() => {
     const handleScroll = () => {
       const scrolled = window.scrollY > 0;
       setIsScrolled(scrolled);
     };
 
-    window.addEventListener('scroll', handleScroll);
+    window.addEventListener("scroll", handleScroll);
     return () => {
-      window.removeEventListener('scroll', handleScroll);
+      window.removeEventListener("scroll", handleScroll);
     };
   }, []);
+
   return (
     <>
-      <nav  className={isScrolled ? 'navbar scrolled' : 'navbar'}>
+      <nav className={isScrolled ? "navbar scrolled" : "navbar"}>
         {/* For Mobiles */}
         <div className={`mobile-navbar ${nav ? "open-nav" : ""}`}>
           <div onClick={openNav} className="mobile-navbar_close">
@@ -66,7 +82,7 @@ function Navbar() {
 
         {/* For Desktops */}
 
-        <div className="navbar">
+        <div className={navbarClass}>
           <div className="navbar_img">
             <Link onClick={() => window.scrollTo(0, 0)} to="/">
               <img className="navbar-logo" src={Logo} alt="logo" />
@@ -79,31 +95,26 @@ function Navbar() {
               </Link>
             </li>
             <li>
-              {" "}
               <Link className="about-link" to="/about">
                 About
               </Link>
             </li>
             <li>
-              {" "}
               <Link className="models-link" to="/models">
                 Vehicle Models
               </Link>
             </li>
             <li>
-              {" "}
               <Link className="testi-link" to="/testimonials">
                 Testimonials
               </Link>
             </li>
             <li>
-              {" "}
               <Link className="team-link" to="/team">
                 Our Team
               </Link>
             </li>
             <li>
-              {" "}
               <Link className="contact-link" to="/contact">
                 Contact
               </Link>
