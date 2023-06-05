@@ -1,12 +1,14 @@
 {
   "files": {
-    "main.css": "/carental-react/static/css/main.128e730c.css",
-    "main.js": "/carental-react/static/js/main.47d6f4c7.js",
+    "main.css": "/carental-react/static/css/main.9814c466.css",
+    "main.js": "/carental-react/static/js/main.011129b9.js",
     "static/media/heroes-bg.png": "/carental-react/static/media/heroes-bg.69cf767fa2a87c17b238.png",
+    "static/media/65042363_e43aaa.jpg": "/carental-react/static/media/65042363_e43aaa.ea1adeff9d4163a7d2da.jpg",
     "static/media/about-main.jpg": "/carental-react/static/media/about-main.6f3164a0c864091e5f18.jpg",
     "static/media/main-img.png": "/carental-react/static/media/main-img.1358a4bc85c61c0c15a2.png",
     "static/media/bg02.png": "/carental-react/static/media/bg02.436a3ef36903d64d3fd6.png",
     "static/media/car.png": "/carental-react/static/media/car.e89e43d63b1ffa676b12.png",
+    "static/media/login-background.png": "/carental-react/static/media/login-background.d74297db305ef8e80401.png",
     "static/media/audi.png": "/carental-react/static/media/audi.c30af43b43ca3b2f6a3a.png",
     "static/media/main-car.png": "/carental-react/static/media/main-car.b0cf0ea3a3ccb292a4ce.png",
     "static/media/bg-hero.png": "/carental-react/static/media/bg-hero.475f31fa04f08e8b9d86.png",
@@ -29,11 +31,11 @@
     "static/media/google-store.svg": "/carental-react/static/media/google-store.11ee92b920fa28fae8596587d80245f7.svg",
     "static/media/icon3.svg": "/carental-react/static/media/icon3.0db16868dd6372474baffa495e575c09.svg",
     "index.html": "/carental-react/index.html",
-    "main.128e730c.css.map": "/carental-react/static/css/main.128e730c.css.map",
-    "main.47d6f4c7.js.map": "/carental-react/static/js/main.47d6f4c7.js.map"
+    "main.9814c466.css.map": "/carental-react/static/css/main.9814c466.css.map",
+    "main.011129b9.js.map": "/carental-react/static/js/main.011129b9.js.map"
   },
   "entrypoints": [
-    "static/css/main.128e730c.css",
-    "static/js/main.47d6f4c7.js"
+    "static/css/main.9814c466.css",
+    "static/js/main.011129b9.js"
   ]
 }
