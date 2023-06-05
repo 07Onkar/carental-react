@@ -77,6 +77,16 @@ function Navbar() {
                 Contact
               </Link>
             </li>
+            <li>
+              <Link onClick={openNav} to="/sign-in">
+                Sign in
+              </Link>
+            </li>
+            <li>
+              <Link onClick={openNav} to="/register">
+                Register
+              </Link>
+            </li>
           </ul>
         </div>
 
@@ -121,10 +131,10 @@ function Navbar() {
             </li>
           </ul>
           <div className="navbar_buttons">
-            <Link className="navbar_buttons_sign-in" to="/">
+            <Link className="navbar_buttons_sign-in" to="/sign-in">
               Sign in
             </Link>
-            <Link className="navbar_buttons_register" to="/">
+            <Link className="navbar_buttons_register" to="/register">
               Register
             </Link>
           </div>

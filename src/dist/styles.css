@@ -2379,3 +2379,363 @@ footer {
 }
 
 /*# sourceMappingURL=styles.css.map */
+
+
+
+/* LOGIN CSS */
+.ui-panel {
+  position: relative;
+  display: flex;
+  flex-direction: column; /* Change flex-direction to column */
+  justify-content: flex-start; /* Align items from the top */
+  align-items: center;
+  height: 50vh;
+  color: rgb(0, 0, 0);
+  box-shadow: 0px 0px 12px rgba(193, 59, 255, 0.3);
+  z-index: 1;
+}
+
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("/src/images/Login/login-background.png");
+  /* background-image: url("/src/images/Login/65042363_e43aaa.jpg"); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.7;
+  z-index: -1;
+}
+
+.login-form {
+  position: relative;
+  z-index: 2;
+  padding: 100px 28px 0 28px;
+  align-self: center; /* Center the form horizontally */
+  margin-top: 20px; /* Add margin-top to create space between h2 and the form */
+}
+
+.login-input {
+  font-size: 1.05em;
+  font-weight: 300;
+  margin-top: 18px;
+  padding: 15px 10px;
+  width: 280px;
+  display: block; /* Change display to block */
+}
+
+@media (max-width: 800px) {
+  .ui-panel {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    text-align: center;
+    padding: -290px 28px 0 28px;
+  }
+  .background-image {
+    background-image: url("/src/images/Login/65042363_e43aaa.jpg");
+  }
+  
+  .login-form {
+    padding-top: 0; /* Remove top padding for mobile devices */
+  }
+}
+
+.Btn {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 45px;
+  height: 45px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  transition-duration: .3s;
+  box-shadow: 2px 2px 10px rgba(183, 0, 255, 0.199);
+  background-color: rgb(111, 2, 253);
+}
+
+.sign {
+  width: 100%;
+  transition-duration: .3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.texts {
+  position: absolute;
+  right: 0%;
+  width: 0%;
+  opacity: 0;
+  color: rgb(255, 255, 255);
+  font-size: 1.2em;
+  font-weight: 600;
+  transition-duration: .3s;
+}
+
+.Btn:hover {
+  width: 125px;
+  border-radius: 40px;
+  transition-duration: .3s;
+}
+
+.Btn:hover .sign {
+  width: 30%;
+  transition-duration: .3s;
+  padding-left: 20px;
+}
+
+.Btn:hover .texts {
+  opacity: 1;
+  width: 70%;
+  transition-duration: .3s;
+  padding-right: 10px;
+}
+
+.Btn:active {
+  transform: translate(2px ,2px);
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.h1s {
+  font-size: xx-large;
+}
+
+.text {
+  text-decoration: none;
+  font-size: medium;
+  color: #5c0191;
+}
+/* Button ENDS */
+
+/* Register Page Starts Here */
+.register-page {
+  padding-top: 78px;
+}
+
+.container-register {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+}
+
+.text {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.signUpGoogle {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.signUpGoogle a {
+  background-color: #bc49ff;
+  color: #fffefe;
+  border: none;
+  padding: 10px 140px;
+  font-size: 18px;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.signup-head {
+  text-align: center;
+  position: relative;
+  margin: 1px 1px;
+  padding-bottom: 10px;
+}
+
+.signup-head::before,
+.signup-head::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 25%;
+  border-top: 1px solid #9c9c9c;
+}
+
+.signup-head::before {
+  left: 0;
+}
+
+.signup-head::after {
+  right: 0;
+}
+
+.signup-head h2 {
+  display: inline-block;
+  padding: 0 10px;
+  background-color: #fff;
+}
+
+.name {
+  display: flex;
+  justify-content: space-between;
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+.input-group h3 {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type="checkbox"] {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+label {
+  font-size: 14px;
+  color: #666;
+}
+
+.signUpButton {
+  background-color: #5c0191;
+  color: #fff;
+  border: none;
+  padding: 10px 200px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.password-input {
+  position: relative;
+}
+
+.password-input input[type="password"] {
+  padding-right: 35px;
+}
+
+.password-input button {
+  position: absolute;
+  top: 50%;
+  right: 5px;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.password-input button i {
+  font-size: 18px;
+}
+
+.text-content {
+  position: relative;
+  z-index: 1;
+}
+
+.text-content h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.text-content span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-content span h3 {
+  margin-left: 5px;
+}
+
+.already {
+  padding-top: 25px;
+  display: flex;
+  justify-content: center;
+  font-size: medium;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .container-register {
+    max-width: 100%;
+    padding: 10px;
+  }
+
+  .text {
+    font-size: 20px;
+  }
+
+  .signUpGoogle a {
+    padding: 10px 110px;
+  }
+
+  .signup-head h2 {
+    font-size: 20px;
+  }
+
+  .input-group h3 {
+    font-size: 14px;
+  }
+
+  input[type="text"],
+  input[type="number"],
+  input[type="email"],
+  input[type="password"] {
+    font-size: 14px;
+  }
+
+  .signUpButton {
+    padding: 10px 178px;
+    font-size: 14px;
+  }
+
+  .password-input input[type="password"] {
+    padding-right: 30px;
+  }
+
+  .password-input button i {
+    font-size: 16px;
+  }
+
+  .text-content h2 {
+    font-size: 20px;
+  }
+
+  .already {
+    font-size: small;
+  }
+}
