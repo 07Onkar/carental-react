@@ -5,6 +5,7 @@ import axios from "axios";
 import HeroPages from "../components/HeroPages";
 import Footer from "../components/Footer";
 import ScrollTop from "../components/ScrollTop";
+import { Link } from "react-router-dom";
 
 function Register() {
   const [showPassword, setShowPassword] = useState(false);
@@ -28,9 +29,9 @@ function Register() {
     e.preventDefault();
 
     axios
-      .post("/register", formData)
+      .post("/api/register", formData) // Send the form data to the server
       .then((response) => {
-        console.log(response.data); // Registration successful, handle response as needed
+        console.log("Registration successful");
         // Reset form fields
         setFormData({
           name: "",
@@ -45,17 +46,16 @@ function Register() {
         // Handle registration error
       });
   };
-
   return (
     <>
       <HeroPages name="Register" />
-      <section className="register-page">
+      <section className="register-page ">
         <div className="container-register">
           <h1 className="text">Sign Up</h1>
           <div className="signUpGoogle">
-            <a className="signUpGoogle" href="/">
+            <Link className="signUpGoogle" to="/">
               Sign Up using Google
-            </a>
+            </Link>
           </div>
           <h2 className="signup-head">or Sign Up With your email</h2>
           <div className="name">
